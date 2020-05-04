@@ -1,0 +1,31 @@
+<!--pages/writing/writing.wxml-->
+
+<view class="writing">
+	<view class="writing-head">记下此刻情绪</view>
+	<view class="writing-body">
+		<scroll-view class="writing-body-scroll" scroll-y="true">
+			<view class="writing-body-box">
+				<view class="writing-body-container">
+					<textarea class="writing-body-edit" placeholder="写下此刻心情吧..."></textarea>
+				</view>
+
+				<view class="weui-uploader__bd">
+					<view class="weui-uploader__files" id="uploaderFiles">
+						<block wx:for="{{imgs}}" wx:key="key">
+							<view class="weui-uploader__file" bindtap="previewImage" bindlongtap="deleteImage" id="{{item}}">
+								<image class="weui-uploader__img" src="{{item}}" mode="aspectFit" />
+							</view>
+						</block>
+					</view>
+					<view class="weui-uploader__input-box">
+						<view class="weui-uploader__input" bindtap="chooseImage"></view>
+					</view>
+				</view>
+			</view>
+		</scroll-view>
+	</view>
+
+	<view class="writing-bottom">
+		<button class="writing-bottom-save" bindtap="onSave">保存心情</button>
+	</view>
+</view>

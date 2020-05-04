@@ -1,0 +1,29 @@
+/* pages/album/album.wxss */
+
+.album {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.canvas-cntainer {
+  flex-grow: 1;
+  background-color: #0df;
+}
+
+.album-canvas-editor {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container {
+  flex: 0 0 180rpx;
+  height: 100px;
+  margin-top: 5px;
+  background-color: #ddd;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+}

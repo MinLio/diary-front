@@ -1,0 +1,14 @@
+<!-- diary.wxml -->
+<view class="diary">
+	<view class="diary-body">
+		<view class="diary-body-bg">
+			<image class="diary-img" src="{{bg_img.url}}"></image>
+		</view>
+		<view class="diary-body-content">
+			diary
+		</view>
+	</view>
+	<view class="diary-bottom">
+		<button class="diary-add" bindtap="addDiary">写心情</button>
+	</view>
+</view>

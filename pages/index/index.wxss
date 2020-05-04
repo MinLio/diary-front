@@ -1,0 +1,16 @@
+/**index.wxss**/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+.bg-container {
+  flex-grow: 1;
+}
+
+.bg-container image {
+  height: 100%;
+}

@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/writing/writing",
+    "pages/diary/diary",
+    "pages/album/album",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "旋儿日记",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/diary/diary",
+        "text": "日记",
+        "iconPath": "img/icon/cal.png",
+        "selectedIconPath": "img/icon/cal-active.png"
+      },
+      {
+        "pagePath": "pages/album/album",
+        "text": "相册",
+        "iconPath": "img/icon/index.png",
+        "selectedIconPath": "img/icon/index-active.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "img/icon/head.png",
+        "selectedIconPath": "img/icon/head-active.png"
+      }
+    ]
+  }
+}

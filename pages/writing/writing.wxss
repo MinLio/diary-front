@@ -1,0 +1,47 @@
+/* pages/writing/writing.wxss */
+
+.writing {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.writing-head {
+  font-size: 20px;
+  margin: 5px 5px  5px 5px;
+}
+
+.writing-body {
+  flex-grow: 1;
+  flex-direction: column;
+  position: relative;
+}
+
+.writing-body-scroll {
+  position: absolute;
+  height: 100%;
+}
+
+.writing-body-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.writing-body-container {
+  flex-grow: 1;
+  margin: 0 5px 0 5px;
+}
+
+.writing-body-edit {
+  width: 100%;
+  height: 100%;
+  background-color: #FDE6E0;
+}
+
+.weui-uploader__bd {
+  margin: 5px;
+}
+
+.writing-bottom, .writing-bottom-save  {
+  background-color: #0df;
+}

@@ -1,0 +1,15 @@
+<!--pages/album/album.wxml-->
+<view class="album">
+  <view class="canvas-cntainer">
+    <canvas type="2d" class="album-canvas-editor" canvas-id="album-canvas"></canvas>
+  </view>
+  <view class="swiper-container">
+    <swiper class="swiper-album">
+      <swiper-item class="swiper-list"></swiper-item>
+    </swiper>
+  </view>
+  <view class="bottom">
+    <button class="set-bg" type="primary" bindtap="setBg">设置背景</button>
+    <button class="save-img" type="primary" bindtap="saveImg">保存心图</button>
+  </view>
+</view>
